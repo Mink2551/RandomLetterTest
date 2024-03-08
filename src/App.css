@@ -1,0 +1,90 @@
+.bg-custom-color {
+    background-color: #ffe4d4; 
+  }
+
+  .sidebar-custom-color {
+    background-color: #fec7a8; 
+  }
+  
+  @keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.neon {
+  animation: slide 2s infinite linear;
+  box-shadow: 0 0 1px 1px rgba(0, 255, 255, 0.5); /* Adjust the color and intensity of the glow here */
+}
+
+@keyframes slide2 {
+    
+    0% {
+      transform: translateX(0%) translateY(0px);
+    }
+    50% {
+      transform: translateX(0%) translateY(-2px);
+    }
+    100% {
+        transform: translateX(0%) translateY(0px);
+    }
+    
+  }
+  
+  .bounce1 {
+    animation: slide2 10s infinite ease-in-out;
+  }
+
+  .bounce2 {
+    animation: slide2 10.1s infinite ease-in-out;
+  }
+
+  .bounce3 {
+    animation: slide2 10.2s infinite ease-in-out;
+  }
+
+  .bounce4 {
+    animation: slide2 10.3s infinite ease-in-out;
+  }
+
+  .bounce5 {
+    animation: slide2 10.4s infinite ease-in-out;
+  }
+
+  .bounce6 {
+    animation: slide2 10.5s infinite ease-in-out;
+  }
+
+  .bounce7 {
+    animation: slide2 10.6s infinite ease-in-out;
+  }
+
+  .bounce8 {
+    animation: slide2 10.7s infinite ease-in-out;
+  }
+
+  .bounce9 {
+    animation: slide2 10.8s infinite ease-in-out;
+  }
+
+  .bounce10 {
+    animation: slide2 10.9s infinite ease-in-out;
+  }
+
+  .bounce11 {
+    animation: slide2 11s infinite ease-in-out;
+  }
+
+  .bounce12 {
+    animation: slide2 11.1s infinite ease-in-out;
+  }
+  
+  
+  
+  
